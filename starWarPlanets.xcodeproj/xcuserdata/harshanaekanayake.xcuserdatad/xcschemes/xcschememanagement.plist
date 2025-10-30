@@ -4,10 +4,33 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>starWarPlanets.xcscheme_^#shared#^_</key>
+		<key>development.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>3</integer>
+		</dict>
+		<key>staging.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>DECD4DDB2EB273C60044B42D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DECD4DED2EB273C80044B42D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DECD4DF72EB273C80044B42D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

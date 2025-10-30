@@ -13,14 +13,14 @@ struct Endpoint {
     var queryItems: [URLQueryItem] = []
     var method: HTTPMethod = .get
 
-    var url: URL {
-        var components = URLComponents()
-        components.scheme = "https"
-        components.host = "swapi.info"
-        components.path = "/api" + path
-        components.queryItems = queryItems.isEmpty ? nil : queryItems
-        return components.url!
-    }
+//    var url: URL {
+//        var components = URLComponents()
+//        components.scheme = "https"
+//        components.host = "swapi.info"
+//        components.path = "/api" + path
+//        components.queryItems = queryItems.isEmpty ? nil : queryItems
+//        return components.url!
+//    }
 }
 
 extension Endpoint {

@@ -15,7 +15,8 @@ Displays Star Wars planets using SWAPI. Shows a list and a detail view with a ra
 
 ## Run
 1. Open `StarWarsPlanets.xcodeproj` in Xcode.
-2. Build and run on iOS Simulator.
+2. Select `development` schema
+3. Build and run on iOS Simulator.
 
 ## Design decisions
 - MVVM architecture provides a clear separation of UI and business logic
@@ -24,3 +25,4 @@ Displays Star Wars planets using SWAPI. Shows a list and a detail view with a ra
 - Alamofire for networking, simplifies async network calls with JSON decoding and retry mechanisms
 - SDWebImage for proper image loading and caching
 - CoreData for offline data caching, as it has buit in support compared to third party frameworks like SQLlite
+- Used XCConfig with separate schemas to differentiate build environments. (Eg: Development, Staging, Production). This will make it easier to manage different configs per environment such as REST API base url

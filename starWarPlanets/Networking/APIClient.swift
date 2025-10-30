@@ -20,7 +20,7 @@ final class APIClient: APIClientProtocol {
     }
 
     func request<T: Decodable>(_ endpoint: Endpoint) async throws -> T {
-        let url = endpoint.url
+        let url = Environment.baseURL.appendingPathComponent(endpoint.path)
         let method = endpoint.method
         let parameters = Dictionary(uniqueKeysWithValues: endpoint.queryItems.map { ($0.name, $0.value ?? "") })
 
