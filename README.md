@@ -10,6 +10,8 @@ Displays Star Wars planets using SWAPI. Shows a list and a detail view with a ra
 - SwiftUI
 - Swift concurrency (async/await)
 - Combine
+- CoreData
+- SwiftTesting & XCTest
 
 ## Run
 1. Open `StarWarsPlanets.xcodeproj` in Xcode.
