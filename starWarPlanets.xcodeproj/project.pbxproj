@@ -157,6 +157,7 @@
 		DEB4C2672EB3BD59005F051E /* App */ = {
 			isa = PBXGroup;
 			children = (
+				DEB4C2AF2EB3DE3B005F051E /* Config */,
 				DECD4E1A2EB2762E0044B42D /* starWarPlanetsApp.swift */,
 			);
 			path = App;
@@ -178,6 +179,16 @@
 				DEB4C2782EB3D208005F051E /* XCTest.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEB4C2AF2EB3DE3B005F051E /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				DEB4C2992EB3DBE2005F051E /* Environment.swift */,
+				DEB4C28A2EB3DA82005F051E /* Development.xcconfig */,
+				DEB4C28E2EB3DAB0005F051E /* Staging.xcconfig */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 		DECD4DD32EB273C60044B42D = {
@@ -204,7 +215,6 @@
 		DECD4E1B2EB2762E0044B42D /* starWarPlanets */ = {
 			isa = PBXGroup;
 			children = (
-				DEB4C2992EB3DBE2005F051E /* Environment.swift */,
 				DEB4C2902EB3DAF8005F051E /* Info.plist */,
 				DEB4C2672EB3BD59005F051E /* App */,
 				DEB4C2682EB3BD64005F051E /* CoreData */,
@@ -215,8 +225,6 @@
 				DEB4C2632EB3BC54005F051E /* Views */,
 				DEB4C2662EB3BC74005F051E /* Resources */,
 				DECD4E192EB2762E0044B42D /* starWarPlanets.xcdatamodeld */,
-				DEB4C28A2EB3DA82005F051E /* Development.xcconfig */,
-				DEB4C28E2EB3DAB0005F051E /* Staging.xcconfig */,
 			);
 			path = starWarPlanets;
 			sourceTree = "<group>";
