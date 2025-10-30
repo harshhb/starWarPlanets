@@ -14,7 +14,7 @@ struct starWarPlanetsApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PlanetListView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

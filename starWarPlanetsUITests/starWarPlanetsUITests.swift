@@ -22,20 +22,19 @@ final class starWarPlanetsUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    @MainActor
-    func testExample() throws {
-        // UI tests must launch the application that they test.
+    func launchApp() -> XCUIApplication {
         let app = XCUIApplication()
+        app.launchArguments.append("--uitesting")
         app.launch()
-
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        return app
     }
 
     @MainActor
-    func testLaunchPerformance() throws {
-        // This measures how long it takes to launch your application.
-        measure(metrics: [XCTApplicationLaunchMetric()]) {
-            XCUIApplication().launch()
-        }
+    func testPlanetListLoads() throws {
+        let app = launchApp()
+        let firstPlanet = app.staticTexts["Alderaan"]
+        let exists = firstPlanet.waitForExistence(timeout: 5)
+        XCTAssertTrue(exists, "Planet list did not load successfully")
     }
+
 }

@@ -6,6 +6,26 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DECD4E1D2EB2762E0044B42D /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD4E132EB2762E0044B42D /* APIClient.swift */; };
+		DECD4E1F2EB2762E0044B42D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD4E162EB2762E0044B42D /* Persistence.swift */; };
+		DECD4E202EB2762E0044B42D /* PlanetListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD4E172EB2762E0044B42D /* PlanetListViewModel.swift */; };
+		DECD4E212EB2762E0044B42D /* PlanetRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD4E182EB2762E0044B42D /* PlanetRepository.swift */; };
+		DECD4E222EB2762E0044B42D /* starWarPlanets.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DECD4E192EB2762E0044B42D /* starWarPlanets.xcdatamodeld */; };
+		DECD4E232EB2762E0044B42D /* starWarPlanetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD4E1A2EB2762E0044B42D /* starWarPlanetsApp.swift */; };
+		DECD4E242EB2762E0044B42D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DECD4E142EB2762E0044B42D /* Assets.xcassets */; };
+		DECD4E262EB276560044B42D /* PlanetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD4E252EB276560044B42D /* PlanetListView.swift */; };
+		DECD4E292EB276730044B42D /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD4E282EB276730044B42D /* Planet.swift */; };
+		DECD4E2E2EB27D0F0044B42D /* PlanetListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD4E2D2EB27D0F0044B42D /* PlanetListItemView.swift */; };
+		DECD4E302EB27D920044B42D /* PlanetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD4E2F2EB27D920044B42D /* PlanetDetailView.swift */; };
+		DECD4E332EB2846C0044B42D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DECD4E322EB2846C0044B42D /* Alamofire */; };
+		DECD4E352EB2857E0044B42D /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD4E342EB2857E0044B42D /* Endpoint.swift */; };
+		DECD4E3E2EB359B30044B42D /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = DECD4E3D2EB359B30044B42D /* SDWebImageSwiftUI */; };
+		DECD4E402EB3651F0044B42D /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD4E3F2EB3651F0044B42D /* CoreDataManager.swift */; };
+		DECD4E422EB365620044B42D /* PlanetDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD4E412EB365620044B42D /* PlanetDataStore.swift */; };
+		DECD4E4A2EB366360044B42D /* PlanetEntity+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD4E492EB366360044B42D /* PlanetEntity+Helper.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		DECD4DEF2EB273C80044B42D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,17 +44,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DEB4C2782EB3D208005F051E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		DECD4DDC2EB273C60044B42D /* starWarPlanets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = starWarPlanets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECD4DEE2EB273C80044B42D /* starWarPlanetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = starWarPlanetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECD4DF82EB273C80044B42D /* starWarPlanetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = starWarPlanetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECD4E132EB2762E0044B42D /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		DECD4E142EB2762E0044B42D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DECD4E162EB2762E0044B42D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		DECD4E172EB2762E0044B42D /* PlanetListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetListViewModel.swift; sourceTree = "<group>"; };
+		DECD4E182EB2762E0044B42D /* PlanetRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetRepository.swift; sourceTree = "<group>"; };
+		DECD4E1A2EB2762E0044B42D /* starWarPlanetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starWarPlanetsApp.swift; sourceTree = "<group>"; };
+		DECD4E1C2EB2762E0044B42D /* starWarPlanets.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = starWarPlanets.xcdatamodel; sourceTree = "<group>"; };
+		DECD4E252EB276560044B42D /* PlanetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetListView.swift; sourceTree = "<group>"; };
+		DECD4E282EB276730044B42D /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		DECD4E2D2EB27D0F0044B42D /* PlanetListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetListItemView.swift; sourceTree = "<group>"; };
+		DECD4E2F2EB27D920044B42D /* PlanetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDetailView.swift; sourceTree = "<group>"; };
+		DECD4E342EB2857E0044B42D /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		DECD4E3F2EB3651F0044B42D /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		DECD4E412EB365620044B42D /* PlanetDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDataStore.swift; sourceTree = "<group>"; };
+		DECD4E492EB366360044B42D /* PlanetEntity+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlanetEntity+Helper.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		DECD4DDE2EB273C60044B42D /* starWarPlanets */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = starWarPlanets;
-			sourceTree = "<group>";
-		};
 		DECD4DF12EB273C80044B42D /* starWarPlanetsTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = starWarPlanetsTests;
@@ -52,6 +83,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DECD4E3E2EB359B30044B42D /* SDWebImageSwiftUI in Frameworks */,
+				DECD4E332EB2846C0044B42D /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +105,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DEB4C2622EB3BC44005F051E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DECD4E172EB2762E0044B42D /* PlanetListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DEB4C2632EB3BC54005F051E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DEB4C2642EB3BC5F005F051E /* PlanetList */,
+				DEB4C2652EB3BC67005F051E /* PlanetDetail */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DEB4C2642EB3BC5F005F051E /* PlanetList */ = {
+			isa = PBXGroup;
+			children = (
+				DECD4E252EB276560044B42D /* PlanetListView.swift */,
+				DECD4E2D2EB27D0F0044B42D /* PlanetListItemView.swift */,
+			);
+			path = PlanetList;
+			sourceTree = "<group>";
+		};
+		DEB4C2652EB3BC67005F051E /* PlanetDetail */ = {
+			isa = PBXGroup;
+			children = (
+				DECD4E2F2EB27D920044B42D /* PlanetDetailView.swift */,
+			);
+			path = PlanetDetail;
+			sourceTree = "<group>";
+		};
+		DEB4C2662EB3BC74005F051E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DECD4E142EB2762E0044B42D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DEB4C2672EB3BD59005F051E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DECD4E1A2EB2762E0044B42D /* starWarPlanetsApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DEB4C2682EB3BD64005F051E /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				DECD4E162EB2762E0044B42D /* Persistence.swift */,
+				DECD4E3F2EB3651F0044B42D /* CoreDataManager.swift */,
+				DECD4E412EB365620044B42D /* PlanetDataStore.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		DEB4C2772EB3D208005F051E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEB4C2782EB3D208005F051E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DECD4DD32EB273C60044B42D = {
 			isa = PBXGroup;
 			children = (
-				DECD4DDE2EB273C60044B42D /* starWarPlanets */,
+				DECD4E1B2EB2762E0044B42D /* starWarPlanets */,
 				DECD4DF12EB273C80044B42D /* starWarPlanetsTests */,
 				DECD4DFB2EB273C80044B42D /* starWarPlanetsUITests */,
+				DEB4C2772EB3D208005F051E /* Frameworks */,
 				DECD4DDD2EB273C60044B42D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +192,48 @@
 				DECD4DF82EB273C80044B42D /* starWarPlanetsUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DECD4E1B2EB2762E0044B42D /* starWarPlanets */ = {
+			isa = PBXGroup;
+			children = (
+				DEB4C2672EB3BD59005F051E /* App */,
+				DEB4C2682EB3BD64005F051E /* CoreData */,
+				DECD4E2A2EB279C80044B42D /* Networking */,
+				DECD4E2C2EB279E80044B42D /* Repositories */,
+				DECD4E272EB276660044B42D /* Models */,
+				DEB4C2622EB3BC44005F051E /* ViewModels */,
+				DEB4C2632EB3BC54005F051E /* Views */,
+				DEB4C2662EB3BC74005F051E /* Resources */,
+				DECD4E192EB2762E0044B42D /* starWarPlanets.xcdatamodeld */,
+			);
+			path = starWarPlanets;
+			sourceTree = "<group>";
+		};
+		DECD4E272EB276660044B42D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DECD4E282EB276730044B42D /* Planet.swift */,
+				DECD4E492EB366360044B42D /* PlanetEntity+Helper.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DECD4E2A2EB279C80044B42D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				DECD4E342EB2857E0044B42D /* Endpoint.swift */,
+				DECD4E132EB2762E0044B42D /* APIClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		DECD4E2C2EB279E80044B42D /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				DECD4E182EB2762E0044B42D /* PlanetRepository.swift */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,11 +251,10 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				DECD4DDE2EB273C60044B42D /* starWarPlanets */,
-			);
 			name = starWarPlanets;
 			packageProductDependencies = (
+				DECD4E322EB2846C0044B42D /* Alamofire */,
+				DECD4E3D2EB359B30044B42D /* SDWebImageSwiftUI */,
 			);
 			productName = starWarPlanets;
 			productReference = DECD4DDC2EB273C60044B42D /* starWarPlanets.app */;
@@ -195,6 +338,10 @@
 			);
 			mainGroup = DECD4DD32EB273C60044B42D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DECD4E312EB2846C0044B42D /* XCRemoteSwiftPackageReference "Alamofire" */,
+				DECD4E3C2EB359B30044B42D /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = DECD4DDD2EB273C60044B42D /* Products */;
 			projectDirPath = "";
@@ -212,6 +359,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DECD4E242EB2762E0044B42D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +384,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DECD4E1D2EB2762E0044B42D /* APIClient.swift in Sources */,
+				DECD4E262EB276560044B42D /* PlanetListView.swift in Sources */,
+				DECD4E292EB276730044B42D /* Planet.swift in Sources */,
+				DECD4E422EB365620044B42D /* PlanetDataStore.swift in Sources */,
+				DECD4E1F2EB2762E0044B42D /* Persistence.swift in Sources */,
+				DECD4E202EB2762E0044B42D /* PlanetListViewModel.swift in Sources */,
+				DECD4E212EB2762E0044B42D /* PlanetRepository.swift in Sources */,
+				DECD4E402EB3651F0044B42D /* CoreDataManager.swift in Sources */,
+				DECD4E222EB2762E0044B42D /* starWarPlanets.xcdatamodeld in Sources */,
+				DECD4E232EB2762E0044B42D /* starWarPlanetsApp.swift in Sources */,
+				DECD4E2E2EB27D0F0044B42D /* PlanetListItemView.swift in Sources */,
+				DECD4E4A2EB366360044B42D /* PlanetEntity+Helper.swift in Sources */,
+				DECD4E352EB2857E0044B42D /* Endpoint.swift in Sources */,
+				DECD4E302EB27D920044B42D /* PlanetDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,7 +559,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4Z489YMAWD;
+				DEVELOPMENT_TEAM = UPD658TUV6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -405,12 +567,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = lk.startwars.starWarPlanets;
+				PRODUCT_BUNDLE_IDENTIFIER = lk.ideahub.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -429,7 +592,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4Z489YMAWD;
+				DEVELOPMENT_TEAM = UPD658TUV6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -437,12 +600,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = lk.startwars.starWarPlanets;
+				PRODUCT_BUNDLE_IDENTIFIER = lk.ideahub.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -578,6 +742,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DECD4E312EB2846C0044B42D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		DECD4E3C2EB359B30044B42D /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DECD4E322EB2846C0044B42D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DECD4E312EB2846C0044B42D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		DECD4E3D2EB359B30044B42D /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DECD4E3C2EB359B30044B42D /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		DECD4E192EB2762E0044B42D /* starWarPlanets.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DECD4E1C2EB2762E0044B42D /* starWarPlanets.xcdatamodel */,
+			);
+			currentVersion = DECD4E1C2EB2762E0044B42D /* starWarPlanets.xcdatamodel */;
+			path = starWarPlanets.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DECD4DD42EB273C60044B42D /* Project object */;
 }
